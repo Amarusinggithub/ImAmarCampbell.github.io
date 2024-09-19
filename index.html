@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Amar Campbell - Portfolio</title>
+    <meta name="description" content="Portfolio of Amar Campbell, Software Developer">
+    <meta name="author" content="Amar Campbell">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon-32x32.png" type="image/png">
+
+    <!-- Skill Card Styling -->
+    <style>
+        .skill-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .skill-card {
+            background-color: #1c1c1c;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .skill-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        .skill-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+            color: #f8b400;
+        }
+        .skill-title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .skill-percentage {
+            font-size: 14px;
+            color: #ccc;
+        }
+    </style>
+</head>
+
+
+
+<body id="top">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <!-- Page Wrap -->
+    <div class="s-pagewrap">
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+            
+        </div>
+
+        <!-- Header -->
+        <header class="s-header">
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html">Amar Campbell</a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li class="current"><a href="#intro">Intro</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Intro Section -->
+        <section id="intro" class="s-intro">
+            <div class="row intro-content wide">
+                <div class="column">
+                    <div class="text-pretitle with-line">Hello World</div>
+                    <h1 class="text-huge-title">
+                        I am Amar,<br>
+                        a Software Developer<br>
+                        specializing in Mobile and Web<br>
+                        Development.
+                    </h1>
+                </div>
+
+                <ul class="intro-social">
+                    <li><a href="#0">GitHub</a></li>
+                    <li><a href="#0">LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <a href="#about" class="intro-scrolldown smoothscroll">
+                <svg width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/>
+                </svg>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="s-styles">
+            <div class="row">
+                <div class="column lg-12 intro">
+                    <h1>About Me</h1>
+                    <p>I am a passionate software developer based in Jamaica with a strong focus on mobile and web application development. I specialize in using technologies like Flutter, Dart, Java, Kotlin, Android Studio, HTML, CSS, and JavaScript. My experience includes building user-friendly applications that enhance user engagement and satisfaction.</p>
+                    <p>I have a solid understanding of Object-Oriented Programming (OOP), SOLID principles, and design patterns. Currently, I am pursuing an apprenticeship in Software Development at Amber Heart Academy (September 2023 – September 2024).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="s-styles">
+            <div class="row">
+                <div class="column lg-12">
+                    <h1>Skills</h1>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">📱</div>
+                            <div class="skill-title">Flutter & Dart</div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">💻</div>
+                            <div class="skill-title">Java & Kotlin</div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🛠️</div>
+                            <div class="skill-title">Android Studio</div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🌐</div>
+                            <div class="skill-title">HTML, CSS, JavaScript</div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">☁️</div>
+                            <div class="skill-title">Firebase</div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🗄️</div>
+                            <div class="skill-title">SQLite & PostgreSQL</div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🎨</div>
+                            <div class="skill-title">Figma (UI/UX Design)</div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">🔧</div>
+                            <div class="skill-title">Version Control (Git)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="s-styles">
+            <div class="row">
+                <div class="column lg-12">
+                    <h1>Projects</h1>
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <h3>Budgeting App</h3>
+                            <img src="images/budgeting-app.jpg" alt="Budgeting App Screenshot" class="project-image">
+                            <p><strong>Technologies Used:</strong> Flutter, Dart, Firebase, Figma</p>
+                            <p><strong>Description:</strong> Developed a budgeting application that allows users to create budgets and track expenses. Implemented Firebase for secure data storage and user authentication.</p>
+                            <a href="https://github.com/yourusername/budgeting-app" class="project-link">View on GitHub</a>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>Farm Management App (RADA)</h3>
+                            <img src="images/farm-management-app.jpg" alt="Farm Management App Screenshot" class="project-image">
+                            <p><strong>Client:</strong> Rural Agricultural Development Authority (RADA)</p>
+                            <p><strong>Technologies Used:</strong> Flutter, Dart</p>
+                            <p><strong>Description:</strong> Collaborated with colleagues during my apprenticeship to develop a farm management app. Contributed by integrating real-time weather data fetching to assist farmers with planning and decision-making.</p>
+                            <a href="https://github.com/yourusername/farm-management-app" class="project-link">View on GitHub</a>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>E-commerce App</h3>
+                            <img src="images/e-commerce-app.jpg" alt="E-commerce App Screenshot" class="project-image">
+                            <p><strong>Technologies Used:</strong> Flutter, Dart, Firebase, Figma</p>
+                            <p><strong>Description:</strong> Built a cross-platform e-commerce application enhancing the shopping experience with features like product listings, shopping cart, and user authentication.</p>
+                            <a href="https://github.com/yourusername/e-commerce-app" class="project-link">View on GitHub</a>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>To-Do App</h3>
+                            <img src="images/to-do-app.jpg" alt="To-Do App Screenshot" class="project-image">
+                            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                            <p><strong>Description:</strong> Developed a web-based to-do list application to help users manage their tasks efficiently.</p>
+                            <a href="https://github.com/yourusername/to-do-app" class="project-link">View on GitHub</a>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>Weather App</h3>
+                            <img src="images/weather-app.jpg" alt="Weather App Screenshot" class="project-image">
+                            <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+                            <p><strong>Description:</strong> Built a weather application that provides real-time weather updates and forecasts.</p>
+                            <a href="https://github.com/yourusername/weather-app" class="project-link">View on GitHub</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="s-contact">
+            <div class="row contact-top">
+                <div class="column lg-12">
+                    <h1>Contact Me</h1>
+                    <p>I would love to hear from you. Whether you have a question or want to discuss a project, feel free to get in touch.</p>
+                </div>
+            </div>
+
+            <div class="row contact-bottom">
+                <div class="column lg-6 contact-block">
+                    <h3>Email</h3>
+                    <p><a href="mailto:loveamar285@gmail.com">loveamar285@gmail.com</a></p>
+                </div>
+                <div class="column lg-6 contact-block">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+YourPhoneNumber">1-876-549-4152</a></p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
